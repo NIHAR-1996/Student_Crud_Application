@@ -1,0 +1,46 @@
+.main-container{
+    position: relative;
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   
+}
+.button-div{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.btn{
+    width: 100px;
+    border: 2px solid black;
+    box-shadow: 2px 2px;
+    background-color: aquamarine;
+    font-weight: 500;
+}
+.detail-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 30%;
+    height: 50%;
+    margin: 150px auto;
+    box-shadow: 2px 2px;
+    border-radius: 5px 5px;
+    background-color: azure;
+    color: black;
+
+
+}
+.detail-box div{
+    padding: 5px;
+}
+.section-1 {
+  margin: 10px 10px;
+  padding: 5px;
+}
+
+.section-2 {
+    margin: 10px 10px;
+    padding: 5px;
+  }

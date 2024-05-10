@@ -1,0 +1,85 @@
+
+.table-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    margin: 80px auto;
+   align-items: center;
+}
+
+.table{
+    width: 100%;
+    border: 1px solid black;
+    align-items: center;
+    margin: 0 auto;
+    border-collapse: collapse;
+
+    
+}
+.table th,td{
+    border: 1px solid black;
+    
+}
+
+.table tr:hover{
+    
+    background-color: #f5f5f5;
+}
+.main-container{
+   
+    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.create-container{
+    display: flex;
+    justify-content: flex-end;
+    width: 65%;
+}
+.create{
+    background-color: aquamarine;
+    border-radius: 5px;
+    box-shadow: 2px 2px;
+    margin: 10px;
+    font-weight: 500;
+     
+}
+.form{
+   
+   margin: 20px auto;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    margin:0 auto ;
+    align-items: baseline;
+   }
+.form input{
+    background-color: rgb(162, 173, 177);
+    color: black;
+    border-radius: 5px 5px;
+    box-shadow: 2px 2px;
+    
+}
+.form-button{
+    border-radius: 5px 5px;
+    margin: 5px;
+    box-shadow: 2px 2px;
+    background-color: rgb(96, 64, 225);
+}
+.btn-Edit{
+    box-shadow: 2px 2px;
+    border-radius: 4px 4px;
+    color:  black;
+    font-weight: 500;
+    background-color: aqua;
+    margin: 5px;
+}
+.btn-Edit:hover{
+  background-color: azure;
+}
+.edit{
+    display: flex;
+    justify-content: center;
+}
